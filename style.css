@@ -48,3 +48,36 @@
     color: white;
     text-decoration: none;
   }
+  .grid-container {
+    /* background: url(./smurfsVillige); */
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2px;
+    background-color: rgb(200, 200, 200);
+    padding: 3%;
+  }
+
+  .grid-item {
+    max-height: 20%;
+    width: (1/3)%;
+    margin: 0 auto;
+    font-size: 1px;
+  }
+
+  .avatar {
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  .avatar:hover {
+    width: 30%;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
