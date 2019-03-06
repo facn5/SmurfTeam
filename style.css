@@ -22,7 +22,7 @@
   text-shadow: 5px 5px 10px black;
 }
 
-.header p {
+p, label {
   /*color: #685206;*/
   font-family: Monospace;
   font-size: 24px;
@@ -33,15 +33,14 @@
   text-justify: inter-word;
   text-align: center;
   text-shadow: 5px 5px 20px gray;
-  color :#000;
-
+  color: #000;
 }
 
 body {
   /* background: url(bg1.png); */
   background: url(assets/bg2.jpeg);
   background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .nav-container {
@@ -64,11 +63,12 @@ nav {
   position: fixed;
   top: 2%;
   width: 100%;
-    border-radius: 25px;
+  border-radius: 25px;
   /* background-color: #0b98de; */
 }
-nav.scroll{
-  background-color: rgb(100, 145,175, 0.8);
+
+nav.scroll {
+  background-color: rgb(100, 145, 175, 0.8);
   /* opacity:30%; */
 }
 
@@ -85,17 +85,16 @@ nav a {
   margin-bottom: 1vw;
   margin-top: 1vw;
   text-shadow:
-  		-1px -1px 0 #000,
-  		1px -1px 0 #000,
-  		-1px 1px 0 #000,
-  		1px 1px 0 #000;
-
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 nav a:hover {
-  background-color: rgb(0, 44, 117,0.7);
+  background-color: rgb(0, 44, 117, 0.7);
   border: 1px solid #000;
-    border-radius: 25px;
+  border-radius: 25px;
   /* opacity:30%; */
 }
 
@@ -103,23 +102,23 @@ nav a:hover {
   padding: 3%;
   margin: 0 auto;
   max-width: 90%;
-  background-color: rgb(200, 200, 200, 0.1);
+  background-color: rgb(115, 130, 140, 0.5);
   margin-bottom: 15px;
   border-radius: 25px;
 }
 
 .header {
-    margin-top: 70px;
-
+  margin-top: 70px;
 }
-.headerDesc{
-    background-color: rgb(40, 111, 186, 0.3);
+
+.headerDesc {
+  background-color: rgb(115, 130, 140, 0.5);
 }
 
 #logo {
   display: flex;
   justify-content: flex-start;
-  font-family:times;
+  font-family: times;
   font-size: 50px;
   /* letter-spacing: -1px; */
   text-shadow: 1px 1px 2px #c4c4c4;
@@ -151,16 +150,17 @@ nav a:hover {
 }
 
 .grid-item {
-  max-width: (1/3)%;
+  max-width: 100%;
   margin: 0 auto;
   font-size: 1px;
   object-fit: contain;
 }
 
 .avatar {
+
   display: flex;
   justify-content: center;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   border: 1px solid #ddd;
   border-radius: 50%;
@@ -168,16 +168,12 @@ nav a:hover {
 }
 
 .avatar:hover {
-  width: 55%;
+  width: 30%;
   margin: 0 auto;
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.avatarText {
-  display: none;
-}
-
-.avatarTextName {
+.avatarName {
   font-size: 18px;
   font-style: oblique;
   font-weight: bold;
@@ -186,15 +182,16 @@ nav a:hover {
   width: 35%;
   height: 10%;
   justify-content: center;
-  /* box-shadow: 0 0 2px 1px rgba(0, 100, 180, 0.3); */
   display: block;
 }
 
-.avatar:hover+.avatarTextName {
+.avatar:hover+.avatarName {
   display: none;
 }
-
-.avatar:hover+.avatarText {
+.avatarInfo {
+  display: none;
+}
+.avatar:hover~.avatarInfo {
   display: block;
   font-size: 18px;
   font-style: oblique;
@@ -203,11 +200,14 @@ nav a:hover {
   width: 35%;
   height: 10%;
   justify-content: center;
-  box-shadow: 0 0 2px 1px rgba(0, 100, 180, 0.3);
-
 }
 
-input[type=text], select, textarea {
+textarea {
+  width: 100%;
+  height: 15%;
+}
+
+input[type=text, email], select {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -220,25 +220,22 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #666790;
   color: white;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   float: right;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #99a710;
 }
 
 .containerForm {
   display: flex;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  opacity: 30%;
   padding: 20px;
   width: 50vw;
   justify-content: center;
