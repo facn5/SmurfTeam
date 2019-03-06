@@ -269,5 +269,10 @@ input[type=submit]:hover {
   .header p {
     font-size: 14px;
   }
+  .grid-container{
+    grid-template-columns: none;
+    grid-row-gap: 40px;
+    grid-template-rows: auto auto auto;
+  }
 
 }
