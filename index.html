@@ -28,84 +28,100 @@
   <div class="header">
     <h1>SmurfsTeam</h1>
     <h2>Full Stack Team developers</h2>
-  <div class="container">
-    <p>Building a successful Website is not a function of ‘by chance’</p>
-    <p>It takes a lot of discomforts, uneasiness, and creativity to start with an idea and build it every day</p>
-    <p> We are a team of 3 fullStack developers</p>
-    <p>We are be happy to achive your goals</p>
+    <div class="container">
+      <p>Building a successful Website is not a function of ‘by chance’</p>
+      <p>It takes a lot of discomforts, uneasiness, and creativity to start with an idea and build it every day</p>
+      <p> We are a team of 3 fullStack developers</p>
+      <p>We are be happy to achive your goals</p>
+    </div>
   </div>
-  </div>
+
+
+
 
   <div id="team" class="container">
     <div class="grid-container ">
       <div class="grid-item">
-        <img src="./smurf.png" alt="avatar" class="avatar">
+        <img src="assets/smurf.png" alt="avatar" class="avatar">
         <p class="avatarTextName">Majd Yaqub</p>
         <p class="avatarText">Full Stack Developer</p>
       </div>
       <div class="grid-item">
-        <img src="2.png" alt="avatar" class="avatar">
-        <p  class="avatarTextName">Tammer Nasser</p>
+        <img src="assets/2.png" alt="avatar" class="avatar">
+        <p class="avatarTextName">Tammer Nasser</p>
         <p class="avatarText">Full Stack Developer</p>
       </div>
       <div class="grid-item">
-        <img  src="6.png" alt="avatar" class="avatar">
-       <p class="avatarTextName">Hanan Shalabi</p>
+        <img src="assets/6.png" alt="avatar" class="avatar">
+        <p class="avatarTextName">Hanan Shalabi</p>
         <p class="avatarText">Full Stack Developer</p>
       </div>
     </div>
   </div>
 
-      <div class="containerForm">
-        <form>
-          <div class="row">
-            <div class="col-25">
-              <label for="fname">Name</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="email">Email</label>
-            </div>
-            <div class="col-75">
-              <input type="email" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="country">Country</label>
-            </div>
-            <div class="col-75">
-              <select id="country" name="country" required>
-                <option value="usa">Israel</option>
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-                <option value="usa">United Kingdom</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="subject">Subject</label>
-            </div>
-            <div class="col-75">
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <input type="submit" onclick="sentMail();" value="Submit">
-          </div>
-        </form>
+  <div class="containerForm">
+    <form method="POST" action="https://formspree.io/teamsmurfs404@gmail.com">
+      <input type="email" name="email" placeholder="Your email">
+      <textarea name="message" placeholder="Test Message"></textarea>
+      <button type="submit">Send Test</button>
+    </form>
+  </div>
+  <br>
+
+  <!-- <div class="containerForm"> -->
+  <form>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
       </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
+      </div>
+    </div>
+
+    <!--  Countries -->
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country" required>
+          <option value="usa">Israel</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">United Kingdom</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" onclick="sentMail();" value="Submit">
+    </div>
+  </form>
+
+  </div>
 
 
-      <div id="goUp">
-        <a id="btnToTop" href="#header">Back to top</a>
-      </div>
+  <div id="goUp">
+    <a id="btnToTop" href="#header">Back to top</a>
+  </div>
 </body>
 
 </html>
