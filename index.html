@@ -3,26 +3,27 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="myscripts.js"></script>
   <title></title>
 </head>
 
 <body>
 
-    <div id="header">
-      <nav>
-        <div class="nav-container">
-          <div class="nav-start">
-            <a id="logo" href="#header">Smurf Team</a>
-          </div>
-          <div class="nav-end">
-            <a href="#header" class"about">About</a>
-            <a href="#team">Team</a>
-            <a href="#contactForm">Contact</a>
-          </div>
+  <div id="header">
+    <nav>
+      <div class="nav-container">
+        <div class="nav-start">
+          <a id="logo" href="#header">Smurf Team</a>
         </div>
-      </nav>
+        <div class="nav-end">
+          <a href="#header" class"about">About</a>
+          <a href="#team">Team</a>
+          <a href="#contactForm">Contact</a>
+        </div>
+      </div>
+    </nav>
 
-    </div>
+  </div>
 
   <div class="header">
     <h1>SmurfTeam</h1>
@@ -47,17 +48,59 @@
         <img src="./smurf.png" alt="avatar" class="avatar">
         <p class="avatarText">Hello, this is a test</p>
       </div>
-
     </div>
   </div>
 
-  <div id="contactForm">
-  </div>
+      <div class="containerForm">
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country" required>
+                <option value="usa">Israel</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">United Kingdom</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" onclick="sentMail();" value="Submit">
+          </div>
+        </form>
+      </div>
 
-  <div id="goUp">
-    <a id="btnToTop" href="#header">Back to top</a>
-  </div>
 
+      <div id="goUp">
+        <a id="btnToTop" href="#header">Back to top</a>
+      </div>
 </body>
 
 </html>
