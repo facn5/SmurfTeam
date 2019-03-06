@@ -33,15 +33,15 @@
   text-justify: inter-word;
   text-align: center;
   text-shadow: 5px 5px 20px gray;
-  color :#000;
-
+  color: #000;
 }
 
-body {
-  /* background: url(bg1.png); */
+body {}
+
+.webbg {
   background: url(bg2.jpeg);
   background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .nav-container {
@@ -64,11 +64,12 @@ nav {
   position: fixed;
   top: 2%;
   width: 100%;
-    border-radius: 25px;
+  border-radius: 25px;
   /* background-color: #0b98de; */
 }
-nav.scroll{
-  background-color: rgb(100, 145,175, 0.8);
+
+nav.scroll {
+  background-color: rgb(100, 145, 175, 0.8);
   /* opacity:30%; */
 }
 
@@ -85,17 +86,16 @@ nav a {
   margin-bottom: 1vw;
   margin-top: 1vw;
   text-shadow:
-  		-1px -1px 0 #000,
-  		1px -1px 0 #000,
-  		-1px 1px 0 #000,
-  		1px 1px 0 #000;
-
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 nav a:hover {
-  background-color: rgb(0, 44, 117,0.7);
+  background-color: rgb(0, 44, 117, 0.7);
   border: 1px solid #000;
-    border-radius: 25px;
+  border-radius: 25px;
   /* opacity:30%; */
 }
 
@@ -109,17 +109,17 @@ nav a:hover {
 }
 
 .header {
-    margin-top: 70px;
-
+  margin-top: 70px;
 }
-.headerDesc{
-    background-color: rgb(40, 111, 186, 0.3);
+
+.headerDesc {
+  background-color: rgb(40, 111, 186, 0.3);
 }
 
 #logo {
   display: flex;
   justify-content: flex-start;
-  font-family:times;
+  font-family: times;
   font-size: 50px;
   /* letter-spacing: -1px; */
   text-shadow: 1px 1px 2px #c4c4c4;
@@ -245,9 +245,14 @@ input[type=submit]:hover {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+@media screen And (max-width: 600px) {
+  .webbg {
+    background: url(none);
+    /* background-color: #fff; */
   }
+  nav a{
+    display:none;
+  }
+
+
 }
