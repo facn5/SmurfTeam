@@ -262,7 +262,7 @@ button[type=submit]:hover {
   clear: both;
 }
 
-@media screen And (max-width: 600px) {
+@media screen And (max-width: 700px) {
   .webbg {
     background: url(none);
     /* background-color: #fff; */
