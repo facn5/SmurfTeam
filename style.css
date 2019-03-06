@@ -262,10 +262,11 @@ button[type=submit]:hover {
   clear: both;
 }
 
-@media screen And (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .webbg {
+    /* display: none; */
     background: url(none);
-    /* background-color: #fff; */
+    background-color: #fff;
   }
   nav a{
     display:none;
