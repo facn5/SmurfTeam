@@ -1,3 +1,39 @@
+.header h1{
+  /*color: #d54d7b;*/
+  font-family: "Great Vibes", cursive;
+  font-size: 165px;
+  line-height: 160px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: 5px 5px #558ABB;
+  /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
+}
+
+.header h2 {
+  /*color: #111;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 72px;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+}
+
+.header p {
+  /*color: #685206;*/
+  font-family: Monospace;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+}
+
 body {
   /* background: url(bg1.png); */
   background: url(bg2.jpeg);
@@ -9,10 +45,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .nav-start{
   display: flex;
   justify-content: flex-start;
 }
+
 .nav-end{
   display: flex;
   justify-content: flex-end;
@@ -40,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #17b0cf;
+  background-color: #313131;
   border: 1px solid #000;
 }
 
@@ -51,15 +89,13 @@ nav a:hover {
   background-color: rgb(200, 200, 200, 0.1);
 }
 
-#header {
+.header {
   margin-top: 70px;
 }
-
 
 #logo {
   display: flex;
   justify-content: flex-start;
-
   font-family: Verdana;
   font-size: 40px;
   letter-spacing: -1px;
