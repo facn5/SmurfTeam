@@ -59,64 +59,73 @@
     </div>
   </div>
 
-  <div class="containerForm">
-    <form method="POST" action="https://formspree.io/teamsmurfs404@gmail.com">
-      <input type="email" name="email" placeholder="Your email">
-      <textarea name="message" placeholder="Test Message"></textarea>
-      <button type="submit">Send Test</button>
+  <div class="container containerForm">
+    <form id="contactForm" method="POST" action="https://formspree.io/teamsmurfs404@gmail.com">
+
+      <label for="email">E-mail: </label>
+      <input type="email" name="email" placeholder="E-mail">
+      <br>
+      <label for="name">Full Name: </label>
+      <input type="text" name="name" placeholder="Full name">
+      <br>
+      <p>Contact Us For More Information || </p>
+      <p>Tell Us About Your Next Project:</p>
+      <textarea name="message"type="text" placeholder="Your quistion || Information"></textarea>
+      <br>
+      <button type="submit">Send</button>
     </form>
   </div>
   <br>
 
-  <!-- <div class="containerForm"> -->
+  <!-- <div class="containerForm">
   <form>
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
-      </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Name</label>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="email">Email</label>
-      </div>
-      <div class="col-75">
-        <input type="email" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
-      </div>
+    <div class="col-75">
+      <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
     </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="email" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
+    </div>
+  </div>
 
-    <!--  Countries -->
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Country</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="country" required>
-          <option value="usa">Israel</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">United Kingdom</option>
-        </select>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
-      </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
     </div>
-    <div class="row">
-      <input type="submit" onclick="sentMail();" value="Submit">
+    <div class="col-75">
+      <select id="country" name="country" required>
+        <option value="usa">Israel</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="usa">United Kingdom</option>
+      </select>
     </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" onclick="sentMail();" value="Submit">
+  </div>
   </form>
 
-  </div>
+  </div> -->
 
 
   <div id="goUp">
