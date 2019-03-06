@@ -199,7 +199,7 @@ nav a:hover {
   font-style: oblique;
   text-align: center;
   margin: 0 auto;
-  width: 35%;
+  width: auto;
   height: 10%;
   justify-content: center;
 }
@@ -209,12 +209,13 @@ textarea {
   height: 15%;
 }
 
-input[type=text, email], select {
+input[type=text],[type="email"],[type="msg"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 7px;
   resize: vertical;
+  margin-bottom: 10px;
 }
 
 label {
@@ -239,9 +240,9 @@ button[type=submit]:hover {
 .containerForm {
   display: flex;
   padding: 20px;
-  width: 50vw;
+  width: 70vw;
   justify-content: center;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 
 .col-25 {
@@ -262,10 +263,11 @@ button[type=submit]:hover {
   clear: both;
 }
 
-@media screen And (max: 600px) {
+@media only screen and (max-width: 600px) {
   .webbg {
+    /* display: none; */
     background: url(none);
-    /* background-color: #fff; */
+    background-color: #fff;
   }
   nav a{
     display:none;
@@ -281,10 +283,10 @@ button[type=submit]:hover {
 
   .header h2 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
   }
   .header p {
-    font-size: 14px;
+    font-size: 20px;
   }
   .grid-container{
     grid-template-columns: none;
@@ -292,4 +294,9 @@ button[type=submit]:hover {
     grid-template-rows: auto auto auto;
   }
 
+}
+@media only screen and (max-width: 900px) {
+  .header h1 {
+    font-size: 100px;
+  }
 }
