@@ -283,10 +283,10 @@ button[type=submit]:hover {
 
   .header h2 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
   }
   .header p {
-    font-size: 14px;
+    font-size: 20px;
   }
   .grid-container{
     grid-template-columns: none;
