@@ -25,13 +25,16 @@
 .header p {
   /*color: #685206;*/
   font-family: Monospace;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 24px;
+  font-weight: bold;
   margin: 0 0 24px;
   text-align: justify;
   text-justify: inter-word;
   text-align: center;
-  text-shadow: 5px 5px 10px black;
+  text-shadow: 5px 5px 20px gray;
+  color :#000;
+
 }
 
 body {
@@ -80,6 +83,11 @@ nav a {
   text-decoration: none;
   margin-bottom: 1vw;
   margin-top: 1vw;
+  text-shadow:
+  		-1px -1px 0 #000,
+  		1px -1px 0 #000,
+  		-1px 1px 0 #000,
+  		1px 1px 0 #000;
 }
 
 nav a:hover {
@@ -93,10 +101,16 @@ nav a:hover {
   margin: 0 auto;
   max-width: 90%;
   background-color: rgb(200, 200, 200, 0.1);
+  margin-bottom: 15px;
+  border-radius: 25px;
 }
 
 .header {
-  margin-top: 70px;
+    margin-top: 70px;
+
+}
+.headerDesc{
+    background-color: rgb(40, 111, 186, 0.3);
 }
 
 #logo {
