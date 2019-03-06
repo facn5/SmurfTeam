@@ -156,6 +156,7 @@ nav a:hover {
 .avatarTextName {
   font-size: 18px;
   font-style: oblique;
+  font-weight: bold;
   text-align: center;
   margin: 0 auto;
   width: 35%;
