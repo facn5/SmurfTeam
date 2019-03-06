@@ -254,5 +254,18 @@ input[type=submit]:hover {
     display:none;
   }
 
+  .header h1{
+    font-size: 65px;
+    line-height: 120px;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    text-shadow: 1px 1px #558ABB;
+  }
+
+  .header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+
 
 }
