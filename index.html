@@ -1,84 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <link rel="stylesheet" type="text/css" href="style.css">
-     <title>
-     </title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a id="logo" href="#header">Smurf Team</a>
-        <a href="#header">About</a>
-        <a href="#team">Team</a>
-        <a href="#contactForm">Contact</a>
-      </nav>
 
-    </header>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="myscripts.js"></script>
+  <title>
+    The Smurf Team
+  </title>
 
-    <div id="header">
+</head>
 
-    </div>
+<body>
+  <header>
+    <nav>
+      <a id="logo" href="#header">Smurf Team</a>
+      <a href="#header">About</a>
+      <a href="#team">Team</a>
+      <a href="#contactForm">Contact</a>
+    </nav>
 
-    <div id="team">
-      <div class="grid-container ">
-        <div class="grid-item">
-          <img src="./smurf.png" alt="avatar" class="avatar">
-        </div>
-        <div class="grid-item">
-          <img src="./smurf.png" alt="avatar" class="avatar">
-        </div>
-        <div class="grid-item">
-          <img src="./smurf.png" alt="avatar" class="avatar">
-        </div>
+  </header>
 
-      </div>
-    </div>
-
-    <div class="containerForm">
-    <form>
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="email">Email</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Country</label>
-      </div>
-      <div class="col-75">
-        <select id="country" name="country" required>
-          <option value="usa">Israel</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">United Kingdom</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-    </form>
+  <div id="header">
+    <h1 class="neon">SmurfTeam</h1>
+    <h2>Full Stack Team developers</h2>
+    <p>Building a successful Website is not a function of ‘by chance’</p>
+    <p>It takes a lot of discomforts, uneasiness, and creativity to start with an idea and build it every day</p>
+    <p> We are a Team of 3 FullStack Developers</p>
+    <p>We are be happy to achive your goals</p>
   </div>
-  </body>
+
+  <div id="team">
+    <div class="grid-container ">
+      <div class="grid-item">
+        <img src="./smurf.png" alt="avatar" class="avatar">
+      </div>
+      <div class="grid-item">
+        <img src="./smurf.png" alt="avatar" class="avatar">
+      </div>
+      <div class="grid-item">
+        <img src="./smurf.png" alt="avatar" class="avatar">
+      </div>
+
+      <div class="containerForm">
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Your name.." required maxlength="25">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" name="email" placeholder="Your E-mail address.." required maxlength="45">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country" required>
+                <option value="usa">Israel</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">United Kingdom</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required maxlength="150"></textarea>
+            </div>
+          </div>
+      <div class="row">
+        <input type="submit" onclick="sentMail();" value="Submit">
+      </div>
+      </form>
+      </div>
+
+
+      <div id="goUp">
+        <a id="btnToTop" href="#header">Back to top</a>
+      </div>
+</body>
+
 </html>
