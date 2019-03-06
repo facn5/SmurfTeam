@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <link rel="stylesheet" type="text/css" href="style.css">
-     <title>
-     </title>
-  </head>
-  <body>
-    <header>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>
+  </title>
+</head>
+
+<body>
+  <header>
+    <div id="header">
       <nav>
-        <a id="logo" href="#header">Smurf Team</a>
-        <a href="#header">About</a>
-        <a href="#team">Team</a>
-        <a href="#contactForm">Contact</a>
+        <div class="nav-container">
+          <div class="nav-start">
+            <a id="logo" href="#header">Smurf Team</a>
+          </div>
+          <div class="nav-end">
+            <a href="#header" class"about">About</a>
+            <a href="#team">Team</a>
+            <a href="#contactForm">Contact</a>
+          </div>
+        </div>
       </nav>
 
-    </header>
-
-    <div id="header">
-
     </div>
+  </header>
 
-    <div id="team">
-      <div class="grid-container ">
-        <div class="grid-item">
-          <img src="./smurf.png" alt="avatar" class="avatar">
-        </div>
-        <div class="grid-item">
-          <img src="./smurf.png" alt="avatar" class="avatar">
-        </div>
-        <div class="grid-item">
-          <img src="./smurf.png" alt="avatar" class="avatar">
-        </div>
 
+  <div id="team" class="container">
+    <div class="grid-container ">
+      <div class="grid-item">
+        <img src="./smurf.png" alt="avatar" class="avatar">
+        <p class="avatarText">Hello, this is a test</p>
       </div>
-    </div>
-    <div id="contactForm">
+      <div class="grid-item">
+        <img src="./smurf.png" alt="avatar" class="avatar">
+        <h1 class="avatarText">Hello, this is a test</h1>
+      </div>
+      <div class="grid-item">
+        <img src="./smurf.png" alt="avatar" class="avatar">
+        <p class="avatarText">Hello, this is a test</p>
+      </div>
 
     </div>
-    <div id="goUp">
-      <a id="btnToTop" href="#header">Back to top</a>
-    </div>
-  </body>
+  </div>
+  <div id="contactForm">
+
+  </div>
+  <div id="goUp" class="container">
+    <a id="btnToTop" href="#header">Back to top</a>
+  </div>
+
+</body>
+
 </html>
