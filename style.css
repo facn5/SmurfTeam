@@ -64,6 +64,7 @@ nav {
 }
 nav.scroll{
   background-color: rgb(96, 154, 247, 0.7);
+  opacity:30%;
 }
 
 nav a {
