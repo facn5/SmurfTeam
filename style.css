@@ -239,9 +239,9 @@ button[type=submit]:hover {
 .containerForm {
   display: flex;
   padding: 20px;
-  width: 50vw;
+  width: 70vw;
   justify-content: center;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 
 .col-25 {
