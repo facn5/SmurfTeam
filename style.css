@@ -265,7 +265,7 @@ button[type=submit]:hover {
 
 @media only screen and (max-width: 600px) {
   .webbg {
-    background: url(none);
+    background: url(assets/bg2m.jpeg);
     background-color: #fff;
   }
 
