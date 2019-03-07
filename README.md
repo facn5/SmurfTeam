@@ -25,5 +25,14 @@ You can read about our team, and you can even contact us if you are thinking abo
   ## Contact info:
   
   ### Tamer Nasser:
+  [CodeWars](https://www.codewars.com/users/tamerNasser)
+  [GitHub]()
+  [Linkedin]()
   ### Majd Yaqub:
+  [CodeWars](https://www.codewars.com/users/majdya)
+  [GitHub]()
+  [Linkedin]()
   ### Hanan Shalabi:
+  [CodeWars]()
+  [GitHub]()
+  [Linkedin]()
