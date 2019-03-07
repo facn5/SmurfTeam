@@ -131,24 +131,47 @@ nav a:hover {
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .grid-container {
   opacity: 30%;
-  max-height: 30%;
+  max-height: 20%;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
 .grid-item {
   max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   font-size: 1px;
   object-fit: contain;
 }
 
 .avatar {
-  display: flex;
   justify-content: center;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   border: 1px solid #ddd;
   border-radius: 50%;
@@ -166,7 +189,7 @@ nav a:hover {
   margin-top: 10px;
 }
 
-.avatar:hover {
+.grid-item:hover .avatar {
   width: 30%;
   margin: 0 auto;
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -184,7 +207,7 @@ nav a:hover {
   display: block;
 }
 
-.avatar:hover+.avatarName {
+.grid-item:hover .avatarName {
   display: none;
 }
 
@@ -192,7 +215,7 @@ nav a:hover {
   display: none;
 }
 
-.avatar:hover~.avatarInfo {
+.grid-item:hover .avatarInfo {
   display: block;
   font-size: 18px;
   font-style: oblique;
@@ -202,6 +225,35 @@ nav a:hover {
   height: 10%;
   justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 textarea {
   width: 100%;
@@ -251,7 +303,7 @@ button[type=submit]:hover {
 
 @media only screen and (max-width: 600px) {
   .webbg {
-    background: none;
+    background: url(assets/bg2m.jpeg);
     background-color: #fff;
   }
 
