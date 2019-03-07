@@ -1,3 +1,4 @@
+// A function to send email.
 function sendMail() {
   var link = "mailto:me@example.com" +
     "?cc=myCCaddress@example.com" +
@@ -7,6 +8,7 @@ function sendMail() {
   window.location.href = link;
 }
 
+// A function to open github profiles.
 function openGithub(n) {
   switch (n) {
     case 1:
@@ -23,6 +25,7 @@ function openGithub(n) {
   }
 }
 
+// On mouse scroll, used for the nav bar.
 window.onscroll = () => {
   const nav = document.querySelector('#navBar');
   if (this.scrollY <= 10) nav.className = '';
