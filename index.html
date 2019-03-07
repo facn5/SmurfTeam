@@ -4,7 +4,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="scripts.js"></script>
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 </head>
 
@@ -39,13 +39,12 @@
 
 
 
-
   <div id="team" class="container">
     <div class="grid-container ">
       <div class="grid-item">
-        <img src="assets/smurf.png" alt="avatar" class="avatar">
+        <img src="assets/smurf.png" alt="avatar"  onclick="openGithub(1)" class="avatar">
         <div class="avatarName">
-          <p>Majd Yaqub</p>
+          <p>Majd</p><p>Yaqub</p>
         </div>
         <div class="avatarInfo">
           <p>CEO</p>
@@ -54,9 +53,9 @@
         </div>
       </div>
       <div class="grid-item">
-        <img src="assets/2.png" alt="avatar" class="avatar">
+        <img src="assets/2.png" alt="avatar" onclick="openGithub(2)" class="avatar">
         <div class="avatarName">
-          <p>Tamer Nasser</p>
+          <p>Tamer</p><p>Nasser</p>
         </div>
         <div class="avatarInfo">
           <p>EVP</p>
@@ -65,9 +64,9 @@
         </div>
       </div>
       <div class="grid-item">
-        <img src="assets/6.png" alt="avatar" class="avatar">
+        <img src="assets/6.png" alt="avatar"  onclick="openGithub(3)" class="avatar">
         <div class="avatarName">
-          <p>Hanan Shalabi</p>
+          <p>Hanan</p><p>Shalabi</p>
         </div>
         <div class="avatarInfo">
           <p>COO</p>
@@ -87,8 +86,8 @@
       <label for="name">Full Name: </label>
       <input type="text" name="name" placeholder="Full name">
       <br>
-      <p>Contact Us For More Information || </p>
-      <p>Tell Us About Your Next Project:</p>
+      <p>Contact us for more information || </p>
+      <p>Tell us about your next project:</p>
       <textarea name="message" type="msg" placeholder="Your quistion || Information"></textarea>
       <br>
       <button type="submit">Send</button>

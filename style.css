@@ -159,7 +159,6 @@ nav a:hover {
 }
 
 .avatar {
-
   display: flex;
   justify-content: center;
   width: 50%;
@@ -167,6 +166,17 @@ nav a:hover {
   border: 1px solid #ddd;
   border-radius: 50%;
   padding: 5px;
+}
+
+.avatarName p {
+  font-size: 34px;
+  color: #1e3a68;
+  text-shadow:
+    -1px -1px 0 #fef,
+    1px -1px 0 #fef,
+    -1px 1px 0 #fef,
+    1px 1px 0 #fef;
+    margin-top: 10px;
 }
 
 .avatar:hover {
@@ -190,9 +200,11 @@ nav a:hover {
 .avatar:hover+.avatarName {
   display: none;
 }
+
 .avatarInfo {
   display: none;
 }
+
 .avatar:hover~.avatarInfo {
   display: block;
   font-size: 18px;
@@ -209,7 +221,7 @@ textarea {
   height: 15%;
 }
 
-input[type=text],[type="email"],[type="msg"] {
+input[type=text], [type="email"], [type="msg"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -269,11 +281,12 @@ button[type=submit]:hover {
     background: url(none);
     background-color: #fff;
   }
-  nav a{
-    display:none;
+
+  nav a {
+    display: none;
   }
 
-  .header h1{
+  .header h1 {
     font-size: 65px;
     line-height: 120px;
     margin-bottom: -10px;
@@ -285,16 +298,18 @@ button[type=submit]:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
   }
+
   .header p {
     font-size: 20px;
   }
-  .grid-container{
+
+  .grid-container {
     grid-template-columns: none;
     grid-row-gap: 40px;
     grid-template-rows: auto auto auto;
   }
-
 }
+
 @media only screen and (max-width: 900px) {
   .header h1 {
     font-size: 100px;

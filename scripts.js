@@ -10,7 +10,17 @@ function sendMail() {
     window.location.href = link;
 }
 
-
+function openGithub(n){
+  switch(n){
+    case 1: window.open('https://github.com/majdya', '_blank');
+    break;
+    case 2:  window.open('https://github.com/tamerNasser', '_blank');
+    break;
+    case 3:  window.open('https://github.com/HananShalabi', '_blank');
+    break;
+    default:break;
+  }
+}
 
 
 // var Email = {
