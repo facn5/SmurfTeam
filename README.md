@@ -13,7 +13,7 @@ You can read about our team, and you can even contact us if you are thinking abo
  In addition there is a contact form, you can request calling you after if you provide your phone number.
  
  ## How we managed to do the website?
-  We work as team, as you know, team work is the best, you get more than one awesome idea
+  We work as team, as you know, team work is the best, you get more than one awesome idea. We had to split the work 
   
   
   ## Our site:
