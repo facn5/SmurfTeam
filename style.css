@@ -32,8 +32,6 @@ p, label {
   color: #000;
 }
 
-body {}
-
 .webbg {
   background: url(assets/bg2.jpeg);
   background-repeat: no-repeat;
@@ -297,18 +295,6 @@ button[type=submit]:hover {
   justify-content: center;
 }
 
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
 .row:after {
   content: "";
   display: table;
@@ -326,8 +312,8 @@ button[type=submit]:hover {
   }
 
   .header h1 {
-    font-size: 65px;
-    line-height: 120px;
+    font-size: 65px !important;
+    /* line-height: 120px; */
     margin-bottom: -10px;
     margin-top: 70px;
     text-shadow: 1px 1px #558ABB;
@@ -353,4 +339,11 @@ button[type=submit]:hover {
   .header h1 {
     font-size: 100px;
   }
+}
+.copyRight{
+  text-shadow:
+    -1px -1px 0 #fef,
+    1px -1px 0 #fef,
+    -1px 1px 0 #fef,
+    1px 1px 0 #fef;
 }
