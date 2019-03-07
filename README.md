@@ -13,7 +13,7 @@ You can read about our team, and you can even contact us if you are thinking abo
  In addition there is a contact form, you can request calling you after if you provide your phone number.
  
  ## How we managed to do the website?
-  We work as team, as you know, team work is the best, you get more than one awesome idea. We had to split the work 
+  We work as team, as you know, team work is the best, you get more than one awesome idea. We splitted the work, each one worked on a section. Then we talked again and each one gave suggestions, we took the best suggestion and check how does it look like. After we worked on the main(basic website) layout we had to work on it again to make it better, we worked together helped each other. We always listen to each other suggestions. You can see the [results](https://facn5.github.io/SmurfsTeam) looks cool.
   
   
   ## Links:
