@@ -18,4 +18,5 @@ You can read about our team, and you can even contact us if you are thinking abo
   
   ## Links:
   [Page host](https://facn5.github.io/SmurfsTeam)
+  
   [Repo link](https://github.com/facn5/SmurfsTeam)
