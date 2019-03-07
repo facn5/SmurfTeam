@@ -265,7 +265,7 @@ button[type=submit]:hover {
 
 @media only screen and (max-width: 600px) {
   .webbg {
-    background: url(none);
+    background: none;
     background-color: #fff;
   }
 
@@ -274,8 +274,8 @@ button[type=submit]:hover {
   }
 
   .header h1 {
-    font-size: 65px;
-    line-height: 120px;
+    font-size: 65px !important;
+    /* line-height: 120px; */
     margin-bottom: -10px;
     margin-top: 70px;
     text-shadow: 1px 1px #558ABB;
