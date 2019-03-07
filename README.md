@@ -16,6 +16,5 @@ You can read about our team, and you can even contact us if you are thinking abo
   We work as team, as you know, team work is the best, you get more than one awesome idea. We had to split the work 
   
   
-  ## Our site:
- https://facn5.github.io/SmurfsTeam/
- 
+  ## Links:
+  [Page host](https://facn5.github.io/SmurfsTeam)
