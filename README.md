@@ -26,13 +26,13 @@ You can read about our team, and you can even contact us if you are thinking abo
   
   ### Tamer Nasser:
   [CodeWars](https://www.codewars.com/users/tamerNasser)
-  [GitHub]()
+  [GitHub](https://github.com/tamerNasser)
   [Linkedin](https://www.linkedin.com/in/tamer-nasser-91536b181/)
   ### Majd Yaqub:
   [CodeWars](https://www.codewars.com/users/majdya)
-  [GitHub]()
+  [GitHub](https://github.com/majdya)
   [Linkedin](https://www.linkedin.com/in/majd-yaqub/)
   ### Hanan Shalabi:
   [CodeWars]()
-  [GitHub]()
+  [GitHub](https://github.com/HananShalabi)
   [Linkedin]()
