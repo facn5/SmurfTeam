@@ -210,7 +210,7 @@ textarea {
   height: 15%;
 }
 
-input[type=text], [type="email"], [type="msg"] {
+input[type=text], [type="email"], [type="textarea"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
