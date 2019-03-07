@@ -288,3 +288,10 @@ button[type=submit]:hover {
     font-size: 100px;
   }
 }
+.copyRight{
+  text-shadow:
+    -1px -1px 0 #fef,
+    1px -1px 0 #fef,
+    -1px 1px 0 #fef,
+    1px 1px 0 #fef;
+}
