@@ -20,3 +20,10 @@ You can read about our team, and you can even contact us if you are thinking abo
   [Page host](https://facn5.github.io/SmurfsTeam)
   
   [Repo link](https://github.com/facn5/SmurfsTeam)
+  
+  
+  ## Contact info:
+  
+  ### Tamer Nasser:
+  ### Majd Yaqub:
+  ### Hanan Shalabi:
