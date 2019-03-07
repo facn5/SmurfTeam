@@ -1,72 +1,33 @@
-
-
+// A function to send email.
 function sendMail() {
-    var link = "mailto:me@example.com"
-             + "?cc=myCCaddress@example.com"
-             + "&subject=" + escape("This is my subject")
-             + "&body=" + escape(document.getElementById('myText').value)
-    ;
+  var link = "mailto:me@example.com" +
+    "?cc=myCCaddress@example.com" +
+    "&subject=" + escape("This is my subject") +
+    "&body=" + escape(document.getElementById('myText').value);
 
-    window.location.href = link;
+  window.location.href = link;
 }
 
-function openGithub(n){
-  switch(n){
-    case 1: window.open('https://github.com/majdya', '_blank');
-    break;
-    case 2:  window.open('https://github.com/tamerNasser', '_blank');
-    break;
-    case 3:  window.open('https://github.com/HananShalabi', '_blank');
-    break;
-    default:break;
+// A function to open github profiles.
+function openGithub(n) {
+  switch (n) {
+    case 1:
+      window.open('https://github.com/majdya', '_blank');
+      break;
+    case 2:
+      window.open('https://github.com/tamerNasser', '_blank');
+      break;
+    case 3:
+      window.open('https://github.com/HananShalabi', '_blank');
+      break;
+    default:
+      break;
   }
 }
 
-
-// var Email = {
-//   send: function(a) {
-//     return new Promise(function(n, e) {
-//       a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send";
-//       var t = JSON.stringify(a);
-//       Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function(e) {
-//         n(e)
-//       })
-//     })
-//   },
-//   ajaxPost: function(e, n, t) {
-//     var a = Email.createCORSRequest("POST", e);
-//     a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function() {
-//       var e = a.responseText;
-//       null != t && t(e)
-//     }, a.send(n)
-//   },
-//   ajax: function(e, n) {
-//     var t = Email.createCORSRequest("GET", e);
-//     t.onload = function() {
-//       var e = t.responseText;
-//       null != n && n(e)
-//     }, t.send()
-//   },
-//   createCORSRequest: function(e, n) {
-//     var t = new XMLHttpRequest;
-//     return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t
-//   }
-// };
-//
-// function sendEmail(){
-//   Email.send({
-//     Host : "smtp.gmail.com",
-//     Username : "username",
-//     Password : "password",
-//     To : 'them@website.com',
-//     From : "you@isp.com",
-//     Subject : "This is the subject",
-//     Body : "And this is the body"
-// }).then(
-//   message => alert(message)
-// );
-// }
- window.onscroll = () => {
+// On mouse scroll, used for the nav bar.
+window.onscroll = () => {
   const nav = document.querySelector('#navBar');
-  if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+  if (this.scrollY <= 10) nav.className = '';
+  else nav.className = 'scroll';
 };
